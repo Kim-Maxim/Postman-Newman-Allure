@@ -1,0 +1,452 @@
+{
+	"id": "77056f6c-34bc-456d-9437-32210a7b6a8d",
+	"name": "Kinopoisk",
+	"timestamp": "2023-06-24T18:07:07.163Z",
+	"collection_id": "26308252-c801c8be-3756-4f96-b994-5577ecceef36",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 30,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-06-24T18:07:05.225Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "f5c7e11e-ec1f-4d11-9a5a-60f53370508a",
+			"name": "Получить данные о фильме",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044",
+			"time": 76,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				76
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "ee0cd2cc-947d-4480-bdb3-54a80ca11f4a",
+			"name": "Получить данные о сезонах сериала",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/seasons",
+			"time": 48,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				48
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "e5efaf73-4d64-4071-a9a7-786691795865",
+			"name": "Получить данные о фактах и ошибках",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/facts",
+			"time": 80,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				80
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "3037decf-5c2d-49c0-893a-7cd8fd03a973",
+			"name": "Получить данные о прокате",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/distributions",
+			"time": 23,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				23
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "065e93ea-6637-4e5c-bfb4-c08f6f27ab69",
+			"name": "Получить данные о бюджете и сборах",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/box_office",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "383c76c2-62b8-452f-904b-d6aa2ec19e1d",
+			"name": "Получить данные о награде фильма",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/awards",
+			"time": 47,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				47
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "b4f184ff-78ce-4059-90fb-1d652859e57c",
+			"name": "Получить трейлеры, видео, тизеры",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/videos",
+			"time": 17,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				17
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "4b040554-947e-478f-82fa-7871499365cd",
+			"name": "Получить список похожих фильмов",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/similars",
+			"time": 29,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				29
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "183c53fc-f83f-4793-9fac-b2fcedccb109",
+			"name": "Получить изображения",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/images",
+			"time": 24,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				24
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "b5476d88-cd91-4e2f-a285-2f4fc4c257ef",
+			"name": "Получить список рецензий зрителей",
+			"url": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/reviews",
+			"time": 173,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				173
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Content-Type is present": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 534,
+	"collection": {
+		"requests": [
+			{
+				"id": "f5c7e11e-ec1f-4d11-9a5a-60f53370508a",
+				"method": "GET"
+			},
+			{
+				"id": "ee0cd2cc-947d-4480-bdb3-54a80ca11f4a",
+				"method": "GET"
+			},
+			{
+				"id": "e5efaf73-4d64-4071-a9a7-786691795865",
+				"method": "GET"
+			},
+			{
+				"id": "3037decf-5c2d-49c0-893a-7cd8fd03a973",
+				"method": "GET"
+			},
+			{
+				"id": "065e93ea-6637-4e5c-bfb4-c08f6f27ab69",
+				"method": "GET"
+			},
+			{
+				"id": "383c76c2-62b8-452f-904b-d6aa2ec19e1d",
+				"method": "GET"
+			},
+			{
+				"id": "b4f184ff-78ce-4059-90fb-1d652859e57c",
+				"method": "GET"
+			},
+			{
+				"id": "4b040554-947e-478f-82fa-7871499365cd",
+				"method": "GET"
+			},
+			{
+				"id": "183c53fc-f83f-4793-9fac-b2fcedccb109",
+				"method": "GET"
+			},
+			{
+				"id": "b5476d88-cd91-4e2f-a285-2f4fc4c257ef",
+				"method": "GET"
+			}
+		]
+	}
+}

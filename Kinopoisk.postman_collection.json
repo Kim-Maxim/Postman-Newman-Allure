@@ -1,0 +1,600 @@
+{
+	"info": {
+		"_postman_id": "61609794-facd-40ae-b01a-2b01f52d5f9e",
+		"name": "Kinopoisk",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26308252"
+	},
+	"item": [
+		{
+			"name": "Получить данные о фильме",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://{{host}}/api/v2.2/films/77044",
+					"protocol": "https",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить данные о сезонах сериала",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/seasons",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"seasons"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить данные о фактах и ошибках",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/facts",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"facts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить данные о прокате",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/distributions",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"distributions"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить данные о бюджете и сборах",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/box_office",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"box_office"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить данные о награде фильма",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/awards",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"awards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить трейлеры, видео, тизеры",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/videos",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"videos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить список похожих фильмов",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/similars",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"similars"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить изображения",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/images",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"images"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Получить список рецензий зрителей",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Response time is less than 200ms\", function () {\r",
+							"    pm.expect(pm.response.responseTime).to.be.below(200);\r",
+							"});\r",
+							"pm.test(\"Content-Type is present\", function () {\r",
+							"    pm.response.to.have.header(\"Content-Type\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "f5c9760b-5879-4a74-af77-143535e12561",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/ecmascript",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://kinopoiskapiunofficial.tech/api/v2.2/films/77044/reviews",
+					"protocol": "https",
+					"host": [
+						"kinopoiskapiunofficial",
+						"tech"
+					],
+					"path": [
+						"api",
+						"v2.2",
+						"films",
+						"77044",
+						"reviews"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "kinopoiskapiunofficial.tech",
+			"type": "string"
+		}
+	]
+}
